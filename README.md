@@ -18,7 +18,7 @@
 
 ## その他コマンド
 
-### docker 環境に変更があった時
+### Docker 環境に変更があった時
 
 ```
 ./docker-compose-local.sh up --build
