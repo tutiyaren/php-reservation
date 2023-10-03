@@ -34,6 +34,12 @@ git@github.com:tech-quest/docker-template.git
 
 ### php
 
+【localhost:8080】のURLを開くと、【src/public/index.php】ファイルのコードが実行されます。
+<br>
+※ 【localhost:8080/top.php】を開くと、【src/public/top.php】ファイルのコードが実行されます。
+<br>
+※ 【localhost:8080/incomes/create.php】を開くと、【src/public/incomes/create.php】ファイルのコードが実行されます。
+
 [localhost:8080](http://localhost:8080)
 
 ### PHPMyAdmin
