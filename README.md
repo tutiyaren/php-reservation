@@ -2,7 +2,7 @@
 
 ## 環境構築
 
-### 1. 【docker-template】リポジトリをテンプレートとして、自身の Github にリポジトリを作成する
+### 1. 【docker-template】リポジトリをテンプレートとして、自身のGithubにリポジトリを作成する
 
 <img width="1440" alt="スクリーンショット 2021-12-24 11 05 14" src="https://user-images.githubusercontent.com/63081802/147306983-b09827a5-cdbd-4061-a1c3-390496b266a8.png">
 
@@ -12,7 +12,7 @@
 git@github.com:tech-quest/docker-template.git
 ```
 
-### 3. 【Dockerコンテナの起動】
+### 3. 【Dockerコンテナ】の起動
 
 ※ Docker Desktop を立ち上げてから以下のコマンドを実行しましょう。
 
@@ -26,21 +26,23 @@ git@github.com:tech-quest/docker-template.git
 
 ## ページ紹介
 
-php
+###php
 
 [localhost:8080](http://localhost:8080)
 
-PHPMyAdmin
+###PHPMyAdmin
 
 [localhost:3306](http://localhost:3306)
 
 ## よくある質問
 
-### 作業が終わったらどうしたら良いですか？
+### 作業の終了後は、どうすべきですか？
 
 作業の終了後は、exit コマンドを実行してください。
 
-exitと入力し、Enterを押すと、Dockerコンテナが停止します。（再度、作業をする際は、もう一度コンテナの起動をしましょう。）
+exitと入力し、Enterを押すと、Dockerコンテナが停止します。
+
+（再度、作業をする際は、もう一度コンテナの起動をしましょう。）
 
 ```
 exit
@@ -50,7 +52,7 @@ exit
 
 他のコンテナが起動していてエラーになっている可能性があります。
 
-Docker Desktopにて他のコンテナを停止してから再度、コンテナの起動をすると解決するかもしれません。
+Docker Desktopにて他のコンテナを停止してから再度コンテナの起動をすると解決するかもしれません。
 
 
 上記でも解決しない場合は、一度PCを再起動してから、コンテナの起動をしましょう。
