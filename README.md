@@ -46,15 +46,11 @@ git@github.com:tech-quest/docker-template.git
 
 ### 作業の終了後は、どうすべきですか？
 
-作業の終了後は、exit コマンドを実行してください。
+作業の終了後は、キーボードで【Contorol + C】を押してください。
 <br>
-exitと入力し、Enterを押すと、Dockerコンテナが停止します。
+【Contorol + C】を押すと、Dockerコンテナが停止します。
 <br>
 （再度、作業をする際は、もう一度コンテナの起動をしましょう。）
-
-```
-exit
-```
 
 <br>
 
