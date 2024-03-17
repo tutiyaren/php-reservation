@@ -37,7 +37,7 @@ if(empty($name) || empty($email) || empty($phone_number)) {
         <? endif; ?>
       <!-- NGな場合 -->
         <?php if(isset($errorMessage)): ?>
-            <p>「予約者名」「Email」「電話番号」のどれかが記入されていません !</p>
+            <p><?php echo $errorMessage ?></p>
         <?php endif ?>
       <!-- 共通部分 -->
         <a href="index.php">予約画面へ</a>
