@@ -21,8 +21,8 @@
                     <input type="email" id="email" name="email" placeholder="Email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                 </div>
                 <div class="relative mb-4" _msthidden="1">
-                    <label for="email" class="leading-7 text-sm text-gray-600" _msttexthash="58058" _msthidden="1" _msthash="276">電話番号: </label>
-                    <input type="tel" id="email" name="phone_number" placeholder="電話番号" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    <label for="tel" class="leading-7 text-sm text-gray-600" _msttexthash="58058" _msthidden="1" _msthash="276">電話番号: </label>
+                    <input type="tel" id="tel" name="phone_number" placeholder="電話番号" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                 </div>
                 <button type="submit" class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" _msttexthash="79859" _msthidden="1" _msthash="278">送信</button>
             </form>

@@ -34,6 +34,7 @@ if(empty($name) || empty($email) || empty($phone_number)) {
       <!-- Okな場合 -->
         <?php if(!(isset($errorMessage))): ?>
             <h1>予約完了 ^ ^</h1>
+            <div><a href="history.php">予約履歴を見る</a></div>
         <? endif; ?>
       <!-- NGな場合 -->
         <?php if(isset($errorMessage)): ?>
